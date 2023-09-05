@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""""Prints the alphabet in reverse order 
+""""Prints the alphabet in reverse order
 alternating the upper- and the lower-cases."""
 
 i = 0
