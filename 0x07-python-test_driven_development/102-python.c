@@ -9,7 +9,7 @@ void print_python_string(PyObject *p)
     Py_ssize_t len = 0;
     wchar_t *str = NULL;
 
-    printf("The [.] string object info\n");
+    printf("[.] string object info\n");
     if (!PyUnicode_Check(p))
     {
         printf("  [ERROR] Invalid String Object\n");
