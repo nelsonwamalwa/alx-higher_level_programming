@@ -1,15 +1,12 @@
 #!/usr/bin/python3
-# 101-lazy_matrix_mul.py
-"""Defining matrix multiplication function using NumPy."""
-import numpy as np
+"""Module lazy_matrix_mul
+Matrix multiplication using the NumPy.
+"""
+import numpy
 
 
 def lazy_matrix_mul(m_a, m_b):
-    """Returning the multiplication of two matrices
-
-    Args:
-        m_a (list of lists of ints/floats): First matrix
-        m_b (list of lists of ints/floats): Second matrix
+    """Multiplying m_a and m_b using
+    matmul, and returning the result
     """
-
-    return (np.matmul(m_a, m_b))
+    return numpy.matmul(m_a, m_b)
